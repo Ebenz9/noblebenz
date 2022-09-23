@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Spanning Columns</h2>
+    <table>
+        <tr>
+            <th>Club</th>
+            <th colspan="2">Flops</th>
+        </tr>
+        <tr>
+            <td>Chelsea</td>
+            <td>Pulisic</td>
+            <td>Jorginho</td>
+        </tr>
+    </table>
+   
+    <h2>Spanning Rows</h2>
+    <table>
+        <tr>
+            <th>Club</th>
+            <td>Man City</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Flops</th>
+            <td>Grealish</td>
+            </tr>
+            <tr>
+                <td>Sterling</td>
+            </tr>
+    </table>
+</body>
+</html>
